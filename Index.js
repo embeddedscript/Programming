@@ -5,6 +5,12 @@ var score3 = 0;
 var ticker1 = 0;
 var ticker2 = 0;
 
+var randomNumber = [Math.random()*10]
+
+if (randomNumber > 0){
+  document.write('<div class="container"><p class="white">Black is equal to ' + randomNumber + '</p></div>')
+}
+
 for (var count = 0; count <11; count++){
   score1 = count;
   score2 = count;
@@ -20,11 +26,11 @@ if (count = 6){
 }
 
 if (score1 = 3){
-  document.write('<div class="container"><p class="red">Red' + ticker1 + ' is equal to ' + score1 + '</p></div>')
+  document.write('<div class="container"><p class="red">Red-' + ticker1 + ' is equal to ' + score1 + '</p></div>')
 }
 
 if (score1 = 6){
-  document.write('<div class="container"><p class="red">Red' + ticker2 + ' is equal to ' + score1 + '</p></div>')
+  document.write('<div class="container"><p class="red">Red-' + ticker2 + ' is equal to ' + score1 + '</p></div>')
 }
 
 if (score2 = 8){
